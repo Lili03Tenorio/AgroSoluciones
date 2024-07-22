@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #21829c;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #023648;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo {
+    width: 125px;
+    height: auto;
+}
+
+.logo-container h1,
+.logo-container p.slogan {
+    position: relative;
+    background-image: url('/Users/Lili/Downloads/PaginaAgroSoluciones/ima/hojas.PNG'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.logo-container h1 {
+    font-size: 2.5rem;
+    z-index: 1; 
+}
+
+.logo-container p.slogan {
+    font-size: 1.5rem; 
+    line-height: 1.2; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+nav {
+    background: #044c5d;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+main {
+    padding: 1rem;
+    flex: 1;
+}
+
+main section {
+    margin-bottom: 2rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #023648;
+    color: white;
+    border-top: 1px solid #ccc;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.3rem; 
+    margin-bottom: 1rem;
+    border: 2px solid #238291; 
+    border-radius: 4px; 
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); 
+    background-color: #f8f8f8; 
+    font-size: 1rem; 
+}
+
+form button {
+    background: #238291; 
+    color: white;
+    padding: 0.75rem 1.25rem; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; 
+}
+
+form button:hover {
+    background: #1a6b7e; 
+}
+
+.faq h4 {
+    margin: 10px 0;
+}
+
+.faq p {
+    margin: 0 0 20px 0;
+}
+
+.politicas-lista {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.politicas-lista li {
+    margin-bottom: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #1a6b7e; 
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.producto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.producto-texto {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.producto-imagen img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-top: 20px;
+    color: #238291;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-to-top:hover {
+    background-color: #1a6b7e;
+    color: #ffffff;
+}

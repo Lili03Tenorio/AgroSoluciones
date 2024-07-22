@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSoluciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+    <script>
+        function showAlert(event) {
+            event.preventDefault(); 
+            alert('Datos enviados correctamente');
+        }
+    </script>
+</head>
+<body>
+    <header id="top">
+        <div class="logo-container">
+            <img src="/Users/Lili/Downloads/PaginaAgroSoluciones/ima/logo.jpeg" alt="Logotipo de la empresa" class="logo">
+            <h1>AgroSoluciones</h1>
+            <p class="slogan">"Invernaderos más eficientes, cultivos más abundantes"</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#vision">Visión</a></li>
+            <li><a href="#politicas">Políticas</a></li>
+            <li><a href="#valores">Valores</a></li>
+            <li><a href="#producto">Producto</a></li>
+            <li><a href="#organigrama">Organigrama</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#ayuda">Ayuda</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="mision">
+            <h2>Misión</h2>
+            <p>Nuestra misión es optimizar la agricultura a través de soluciones innovadoras
+                de riego automatizado, promoviendo el uso eficiente de recursos y mejorando
+                la productividad de los invernaderos en la región de Tulancingo.</p>
+            <a href="#top" class="back-to-top">Regresar</a>
+        </section>
+
+        <section id="vision">
+            <h2>Visión</h2>
+            <p>Ser líderes en la implementación de tecnologías avanzadas de riego
+                automatizado en invernaderos, contribuyendo al desarrollo sostenible de la
+                agricultura local y regional.</p>
+            <a href="#top" class="back-to-top">Regresar</a>
+        </section>
+
+        <section id="politicas">
+            <h2>Políticas</h2>
+            <ul class="politicas-lista">
+                <li><strong>Calidad:</strong> Ofrecer productos y servicios de alta calidad que cumplan con las expectativas y necesidades de nuestros clientes.</li>
+                <li><strong>Innovación:</strong> Promover la investigación y el desarrollo continuo de nuevas tecnologías para mejorar nuestros sistemas de riego.</li>
+                <li><strong>Sostenibilidad:</strong> Implementar prácticas que contribuyan al uso eficiente de los recursos y la protección del medio ambiente.</li>
+            </ul>
+            <a href="#top" class="back-to-top">Regresar</a>
+        </section>        
+
+        <section id="valores">
+            <h2>Valores</h2>
+            <ul>
+                <li><strong>Innovación:</strong> La innovación es el motor que impulsa nuestro progreso. Nos dedicamos a desarrollar tecnologías avanzadas que mejoren la eficiencia y efectividad del riego automatizado en invernaderos. Fomentamos un entorno de trabajo creativo donde las ideas novedosas se valoran y se transforman en soluciones prácticas y patentables para nuestros clientes.</li>
+                <li><strong>Sostenibilidad:</strong> Nos comprometemos a desarrollar sistemas de riego que no solo aumenten la productividad agrícola, sino que también sean respetuosos con el medio ambiente. Promovemos prácticas que minimicen el uso de recursos naturales y reduzcan el impacto ambiental, contribuyendo así a un futuro más verde y sostenible para todos.</li>
+                <li><strong>Compromiso con el Cliente:</strong> Nos esforzamos por entender y satisfacer las necesidades de nuestros clientes, proporcionando productos y servicios de alta calidad. Valoramos la relación con cada cliente, ofreciendo soporte continuo y soluciones personalizadas que aseguren su satisfacción y éxito a largo plazo.</li>
+            </ul>
+            <a href="#top" class="back-to-top">Regresar</a>
+        </section>
+
+        <section id="producto">
+            <h2>Producto</h2>
+            <div class="producto-container">
+                <div class="producto-texto">
+                    <h3>Automatización del Riego en Invernaderos</h3>
+                    <ul>
+                        <li><strong>Descripción:</strong> Sistema de riego automatizado que utiliza sensores y software avanzado para optimizar el riego en invernaderos.</li>
+                    </ul>
+                    <h4>Características:</h4>
+                    <ul>
+                        <li>Control remoto a través de una interfaz de usuario intuitiva.</li>
+                        <li>Monitoreo en tiempo real de las condiciones del invernadero (humedad, temperatura, etc.).</li>
+                        <li>Programación y ajustes automáticos basados en las necesidades específicas de cada cultivo.</li>
+                    </ul>
+                    <h4>Beneficios:</h4>
+                    <ul>
+                        <li>Ahorro de agua y recursos.</li>
+                        <li>Incremento en la eficiencia y productividad del cultivo.</li>
+                        <li>Reducción del tiempo y esfuerzo manual requerido para el riego.</li>
+                    </ul>
+                    <h4>Diferenciadores:</h4>
+                    <ul>
+                        <li>Innovación en tecnología de sensores y software.</li>
+                        <li>Facilidad de uso con una interfaz amigable.</li>
+                        <li>Servicio de soporte técnico y mantenimiento continuo.</li>
+                    </ul>
+                </div>
+                <div class="producto-imagen">
+                    <img src="/Users/Lili/Downloads/PaginaAgroSoluciones/ima/sistemariego.jpg" alt="Imagen del producto">
+                </div>
+            </div>
+            <a href="#top" class="back-to-top">Regresar</a>
+        </section>
+        
+        <section id="organigrama">
+            <h2>Organigrama</h2>
+            <img src="/Users/Lili/Downloads/PaginaAgroSoluciones/ima/organigrama.png" alt="Organigrama de la empresa">
+            <a href="#top" class="back-to-top">Regresar</a>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form onsubmit="showAlert(event)">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <a href="#top" class="back-to-top">Regresar</a>
+        </section>
+
+        <section id="ayuda">
+            <h2>Ayuda</h2>
+            
+            <h3>Preguntas Frecuentes (FAQ)</h3>
+            <div class="faq">
+                <h4>¿Cómo puedo contactar con el soporte técnico?</h4>
+                <p>Puedes contactarnos a través del formulario de contacto en la sección de "Contacto" o enviando un email a soporte@agrosoluciones.com</p>
+                
+                <h4>¿Dónde puedo encontrar más información sobre sus productos?</h4>
+                <p>Puedes encontrar información detallada sobre nuestros productos en la sección "Producto" de nuestra página web. Allí encontrarás descripciones, características y beneficios de cada uno de nuestros sistemas de riego automatizado.</p>
+
+                <h4>¿Qué tipo de soporte técnico ofrecen?</h4>
+                <p>Ofrecemos soporte técnico completo que incluye asistencia en la instalación, configuración y mantenimiento de nuestros productos. Puedes ponerte en contacto con nuestro equipo de soporte a través de la sección "Contacto" o enviando un email a soporte@agrosoluciones.com</p>
+            </div>
+
+            <h3>Formulario de Soporte</h3>
+            <form onsubmit="showAlert(event)">
+                <label for="nombre-soporte">Nombre:</label>
+                <input type="text" id="nombre-soporte" name="nombre-soporte">
+
+                <label for="email-soporte">Email:</label>
+                <input type="email" id="email-soporte" name="email-soporte">
+
+                <label for="problema">Describe tu problema:</label>
+                <textarea id="problema" name="problema"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <a href="#top" class="back-to-top">Regresar</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AgroSoluciones. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
